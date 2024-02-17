@@ -45,11 +45,11 @@ function decode(message) {
 //   const a = decode('hola (odnum)')
 //   console.log(a) // hola mundo
   
-//   const b = decode('(olleh) (dlrow)!')
-//   console.log(b) // hello world!
+  const b = decode('(olleh) (dlrow)!')
+  console.log(b) // hello world!
   
-  const c = decode('sa(u(cla)atn)s')
-  console.log(c) // santaclaus
+//   const c = decode('sa(u(cla)atn)s')
+//   console.log(c) // santaclaus
   
   // Paso a paso:
   // 1. Invertimos el anidado -> sa(ualcatn)s
